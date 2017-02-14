@@ -15,3 +15,6 @@ Block Diagram:
 Interface:
 
 ![Front Panel](GASDAQp.png)
+
+## Dependencies
+Created in LabVIEW 2015 and downgraded for use with LabVIEW 2013. VIs responsible for interfacing with the National Instruments DAQ require a compatible version of NI-DAQmx. Sub-VIs: POLY PLOT (readcsv.vi) and BURST FRAC (burst_frac.vi).
