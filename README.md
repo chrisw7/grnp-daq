@@ -1,7 +1,7 @@
 # auto-daq
 LabVIEW interface for automated collection and processing of analog gas pressure/flow data
 
-<p align="center"><img src="GASDAQ.png"/></p>
+<p align="center"><img src="img/splash.png"/></p>
 
 Virtual data acquisition (DAQ) instrument created during my time as a visiting student in the MIT Nano & Microfluidics lab that was used to facilitate the collection of critical data used in the publication of our work (manuscript currently under consideration).
 
@@ -10,11 +10,11 @@ Includes functionality allowing user to compare data to past measurements and a 
 
 Block Diagram:
 
-![VI Block Diagram](GASDAQd.png)
+![VI Block Diagram](img/block.png)
 
 Interface:
 
-![Front Panel](GASDAQp.png)
+![Front Panel](img/gui.png)
 
 ## Dependencies
 Created in LabVIEW 2015 and downgraded for use with LabVIEW 2013. VIs responsible for interfacing with the National Instruments DAQ require a compatible version of NI-DAQmx. Sub-VIs: POLY PLOT (readcsv.vi) and BURST FRAC (burst_frac.vi).
