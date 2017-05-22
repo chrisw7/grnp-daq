@@ -1,5 +1,5 @@
-# auto-daq
-LabVIEW interface for automated collection and processing of analog gas pressure/flow data
+# grnp-daq
+LabVIEW data acquisition (**daq**) interface for automatically collecting and processing analog gas pressure/flow data for **gr**aphene **n**ano-**p**ores. You can find our more about the research project [here](https://phys.org/news/2017-04-graphene-high-pressure.html)
 
 <p align="center"><img src="img/splash.png"/></p>
 
